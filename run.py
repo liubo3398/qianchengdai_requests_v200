@@ -29,5 +29,3 @@ run.send_email(host='smtp.163.com',  # smtp服务器地址
                to_addrs='1119889127@qq.com'  # 需要发送的邮箱，多个账号用list
 )
 # &&&&&&&&&&&&&&&&&&&&&&&&发送测试报告到邮箱&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-run.dingtalk_notice()
-run.weixin_notice()
